@@ -1118,6 +1118,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-Xfrontend",
+					"-module-interface-preserve-types-as-written",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1141,6 +1145,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Xfrontend",
+					"-module-interface-preserve-types-as-written",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectStoryboard";
 				SWIFT_VERSION = 5.0;
